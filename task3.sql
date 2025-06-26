@@ -113,20 +113,24 @@ WHERE product_id = 2 AND stock_quantity = 0;
 
 SELECT * FROM Customers;
 
-SELECT name, price FROM Products;
+SELECT name, email FROM Customers;
 
-SELECT order_id, total_amount FROM Orders;
+SELECT * FROM Products
+WHERE stock_quantity = 0;
 
-SELECT order_id, product_id, quantity FROM Order_Items;
+SELECT * FROM Customers
+WHERE address = 'Delhi' OR phone IS NULL;
 
-SELECT payment_id, amount_paid, payment_method FROM Payments;
+SELECT * FROM Customers
+WHERE email LIKE 'shruti@example.com';
 
-SELECT name, email FROM Customers WHERE email IS NOT NULL;
+SELECT * FROM Products
+WHERE price BETWEEN 1000 AND 30000;
 
-SELECT name, stock_quantity FROM Products WHERE stock_quantity > 0;
+SELECT * FROM Products
+ORDER BY price ASC;
 
-SELECT order_id, total_amount FROM Orders WHERE total_amount IS NOT NULL;
+SELECT * FROM Orders
+ORDER BY order_date DESC
+LIMIT 2;
 
-SELECT * FROM Order_Items WHERE quantity >= 2;
-
-SELECT * FROM Payments WHERE amount_paid IS NULL;
