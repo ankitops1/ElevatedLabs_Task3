@@ -14,13 +14,13 @@ Extract data from one or more tables using `SELECT` queries to retrieve customer
 - **Payments**
 
 ## 📌 Use Case
-✅ Data extraction from normalized relational tables
-✅ Filtering results based on conditions
-✅ Displaying only relevant columns for reporting or analysis
-✅ Practicing real-world query needs from a business database
+ - **Data extraction from normalized relational tables**
+ - **Filtering results based on conditions**
+ - **Displaying only relevant columns for reporting or analysis**
+ - **Practicing real-world query needs from a business database**
 
 ## ✅ Task Summary
-🔍 Querying all columns from a table
-🎯 Selecting specific columns
-📑 Applying WHERE filters
-🔢 Using conditions like IS NOT NULL, >=, etc.
+🔍 **Querying all columns from a table**
+🎯 **Selecting specific columns**
+📑 **Applying WHERE filters**
+🔢 **Using conditions like IS NOT NULL, >=, etc.**
